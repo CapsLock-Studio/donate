@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CapsLock, Studio Donate</title>
+</head>
+<body>
+  Redirecting....
+  <form action="https://www.coinpayments.net/index.php" method="post" style="display: none" name="donate">
+    <input type="hidden" name="cmd" value="_donate">
+    <input type="hidden" name="reset" value="1">
+    <input type="hidden" name="merchant" value="4cadc2064c74aa4005e328834811ecc0">
+    <input type="hidden" name="currency" value="USD">
+    <input type="hidden" name="amountf" value="5">
+    <input type="hidden" name="item_name" value="CapsLock, Studio Donation">
+    <input type="image" src="https://www.coinpayments.net/images/pub/donate-grey.png" alt="Donate with CoinPayments.net">
+  </form>
+  <script>
+    setTimeout(function() {
+      document.forms.donate.submit();
+    }, 500)
+  </script>
+</body>
+</html>
